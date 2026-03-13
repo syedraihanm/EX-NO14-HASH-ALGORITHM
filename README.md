@@ -28,6 +28,8 @@ To implement HASH ALGORITHM
 
 ## Program:
 
+```
+
 #include <stdio.h> 
 #include <string.h> 
 void computeSimpleHash(const char *message, unsigned char *hash) 
@@ -62,7 +64,9 @@ else
 printf("Hash verification failed. Message has been altered.\n"); 
 } 
 return 0; 
-} 
+}
+
+```
 
 ## Output:
 
